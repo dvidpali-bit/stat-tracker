@@ -1,0 +1,30 @@
+TEAM STAT TRACKER - offline app (PWA)
+=====================================
+
+This folder IS the app. To put it on a phone or tablet you publish the folder
+to any free web host once, then "install" it from the browser. After the first
+visit it works with no internet at all.
+
+1) PUBLISH THE FOLDER (pick one, all free, needs HTTPS)
+   - Netlify Drop: go to app.netlify.com/drop and drag this whole folder onto the page.
+   - Cloudflare Pages / GitHub Pages: upload the folder contents as a static site.
+   Keep the folder contents together (index.html, sw.js, assets/, icons/ ...).
+   Opening index.html straight from your files will NOT install or work offline;
+   the offline part needs the https:// address.
+
+2) INSTALL ON THE DEVICE (open the address once while online)
+   - Android (Chrome): menu (three dots) > "Install app" / "Add to Home screen".
+   - iPhone / iPad (Safari): Share button > "Add to Home Screen".
+   Then open it from the new home-screen icon. Wait a couple of seconds the first
+   time; the app is saved on the device. After that, airplane mode is fine.
+
+3) GOOD TO KNOW
+   - Your teams, players and games are stored on that device only. Phone and tablet
+     do not sync with each other.
+   - iPhone/iPad: the home-screen app and the Safari tab keep SEPARATE data.
+     Install first, then enter your real data in the home-screen app.
+   - Clearing the browser's website data / uninstalling the app erases the data.
+     Use "Finish & save game" and keep the Excel box score as your backup.
+   - To update: upload the new folder to the same address. Open the app online and
+     close/reopen it once; the new version is picked up automatically.
+   - Needs a reasonably recent phone: Android Chrome 111+ or iOS/iPadOS 16.4+.
